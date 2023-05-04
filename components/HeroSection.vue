@@ -1,5 +1,5 @@
 <template>
-	<section class="background2 dark:bg-gray-900">
+	<section class="background2">
 		<div class="">
 			<header class="max-w-6xl mx-auto">
 				<nav class="border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
