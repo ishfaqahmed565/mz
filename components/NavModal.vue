@@ -18,7 +18,7 @@
 			v-if="dialogStore.showModal"
 			class="modal-mask bg-black bg-opacity-90 opacity-[.9] z-[60]"
 		>
-			<SectionContainer class="background-none">
+			<div class="background-none">
 				<button
 					class="fixed right-[18px] top-[15px] z-[70] lg:hidden border rounded border-red p-1"
 				>
@@ -52,7 +52,7 @@
 						<hr class="border-t-[1.2px] border-gray-800" />
 					</li>
 				</ul>
-			</SectionContainer>
+			</div>
 		</div>
 	</Transition>
 </template>

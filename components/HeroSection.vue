@@ -122,23 +122,24 @@
 	const dialogStore = useDialogStore();
 	let showClose = ref(false);
 	const sectext = ref("");
-
-	const textLoad = () => {
-		setTimeout(() => {
-			sectext.value.textContent = "Youtube";
-		}, 0);
-		setTimeout(() => {
-			sectext.value.textContent = "Tiktok";
-		}, 4000);
-		setTimeout(() => {
-			sectext.value.textContent = "Instagram";
-		}, 8000);
-		setTimeout(() => {
-			sectext.value.textContent = "Facebook";
-		}, 12000);
-	};
-	textLoad();
-	setInterval(textLoad, 16000);
+	onMounted(() => {
+		const textLoad = () => {
+			setTimeout(() => {
+				sectext.value.textContent = "Youtube";
+			}, 0);
+			setTimeout(() => {
+				sectext.value.textContent = "Tiktok";
+			}, 4000);
+			setTimeout(() => {
+				sectext.value.textContent = "Instagram";
+			}, 8000);
+			setTimeout(() => {
+				sectext.value.textContent = "Facebook";
+			}, 12000);
+		};
+		textLoad();
+		setInterval(textLoad, 16000);
+	});
 </script>
 <style scoped>
 	.shadow1:hover {
