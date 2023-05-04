@@ -45,7 +45,7 @@ html {
     align-items: center;
 }
 .card::after{
-    content: "Animation";
+    content: "";
     width: 495px;
     height: 295px;
     background: #101010;
@@ -61,13 +61,13 @@ html {
 }
 @media only screen and (max-width: 600px) {
   .card{
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
   }
   .card::after{
 
-    width: 249px;
-    height: 149px;
+    width: 295px;
+    height: 195px;
 
    
 }

@@ -54,11 +54,11 @@
 					alt=""
 					:class="{ block: !showVideo, hidden: showVideo }"
 					@click="showVideo = true"
-					class="absolute z-[50] w-[240px] h-[140px] sm:w-[485px] sm:h-[285px] rounded"
+					class="absolute z-[50] w-[295px] h-[195px] sm:w-[485px] sm:h-[285px] rounded"
 				/>
 				<iframe
 					:class="{ block: showVideo, hidden: !showVideo }"
-					class="absolute z-[50] w-[240px] h-[140px] sm:w-[485px] sm:h-[285px] w-[485px] h-[285px] rounded"
+					class="absolute z-[50] object-cover w-[280px] h-[170px] sm:w-[485px] sm:h-[285px] w-[485px] h-[285px] rounded"
 					frameborder="0"
 					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
 					title="MZ Media Launch Video"

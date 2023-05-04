@@ -4,6 +4,8 @@
 			entries.forEach((entry) => {
 				if (entry.isIntersecting) {
 					entry.target.classList.add("sh1");
+				} else {
+					entry.target.classList.remove("sh1");
 				}
 			});
 		});
